@@ -17,7 +17,7 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 0 150px;
+    padding: 0 15%;
     margin-bottom: 0;
 }
 
@@ -46,7 +46,7 @@ h4 {
     color: white;
     display: flex;
     align-items: center;
-    padding: 50px 150px;
+    padding: 50px 15%;
     margin-top: 0;
 
 }
@@ -86,7 +86,7 @@ h1 {
 /* For Container2 */
 
 .container2{
-    padding: 0 150px;
+    padding: 50px 15%;
 }
 
 h3 {
@@ -94,30 +94,48 @@ h3 {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
+    margin-top: 0;
 }
-
+.boxHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
 .box {
     width: 100px;
     height: 100px;
-    border: 3px solid #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+
 }
 
 .info {
     display: flex;
     justify-content: space-around;
 }
+.info p {
+    text-align: center;
+}
 
 /* For Container3 */
 
 .container3 {
     background-color: #e5e7eb;
-    padding: 0 150px;
+    padding: 50px 15%;
+
 }
+
 
 blockquote {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: 300;
     color: #1f2937;
+    margin: 0;
+    word-wrap: normal;
+
+
 }
 
 .citation {
@@ -125,12 +143,14 @@ blockquote {
     color: #1f2937;
     font-size: 18px;
     font-weight: 900;
+    padding-right: 4rem;
+
 }
 
 /* For Container4 */
 
 .container4 {
-    padding: 0 150px;
+    padding: 0 15%;
     display: flex;
     justify-content: center;
     align-items: center;
