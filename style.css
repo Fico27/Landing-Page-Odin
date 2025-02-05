@@ -84,3 +84,22 @@ h3 {
 display: flex;
 justify-content: space-around;
 }
+
+/* For Container3 */
+
+.container3 {
+    background-color: #e5e7eb;
+    
+}
+blockquote{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.citation {
+    text-align: right;
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 900;
+}
