@@ -54,11 +54,13 @@ h1 {
     font-size: 18px;
     color: #e5e7eb;
 }
+
 .imgBox {
     width: 200px;
     height: 200px;
     border: 1px solid white;
 }
+
 .signUp {
     background-color: #3882F6;
     color: white;
@@ -74,24 +76,25 @@ h3 {
     text-align: center;
 }
 
-.box{
+.box {
     width: 100px;
     height: 100px;
     border: 3px solid #3882F6;
 }
 
-.info{
-display: flex;
-justify-content: space-around;
+.info {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* For Container3 */
 
 .container3 {
     background-color: #e5e7eb;
-    
+
 }
-blockquote{
+
+blockquote {
     font-size: 36px;
     font-style: light italic;
     color: #1f2937;
@@ -112,3 +115,23 @@ blockquote{
     align-items: center;
 }
 
+.callToAction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 600px;
+    height: 150px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.callToAction div h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.callToAction div p {
+    padding: 0;
+    margin: 0;
+}
