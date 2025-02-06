@@ -79,7 +79,9 @@ h1 {
     background-color: #3882F6;
     color: white;
     padding: 7px 20px;
-    border-radius: 8px;
+    border-radius: 4px;
+    font-weight: 800;
+    border: 2px solid #3882F6;
 }
 
 
@@ -105,7 +107,7 @@ h3 {
 .box {
     width: 100px;
     height: 100px;
-    border: 5px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 8px;
 
 }
@@ -150,7 +152,7 @@ blockquote {
 /* For Container4 */
 
 .container4 {
-    padding: 0 15%;
+    padding: 5% 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,10 +163,11 @@ blockquote {
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
-    width: 600px;
+    width: 90%;
     height: 150px;
     color: white;
     padding: 10px 20px;
+    border-radius: 8px;
 }
 
 .callToAction div h5 {
@@ -176,6 +179,20 @@ blockquote {
     padding: 0;
     margin: 0;
 }
+
+h5 {
+    font-size: 18px;
+}
+.callToButton {
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: .5rem 2rem;
+    font-weight: 800;
+}
+
+/* footer */
 
 .footer {
     background-color: #1f2937;
